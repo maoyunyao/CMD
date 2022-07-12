@@ -10,10 +10,7 @@ This repository includes Python (PyTorch) implementation of the CMD.
 ## Abstract
 In 3D action recognition, there exists rich complementary information between skeleton modalities. Nevertheless, how to model and
 utilize this information remains a challenging problem for self-supervised
-3D action representation learning. In this work, we formulate the crossmodal interaction as a bidirectional knowledge distillation problem. Different from classic distillation solutions that transfer the knowledge of a fixed and pre-trained teacher to the student, in this work, the knowledge is continuously updated and bidirectionally distilled between modalities. To this end, we propose a new Cross-modal Mutual Distillation (CMD) framework with the following designs. On the one hand, the neighboring similarity distribution is introduced to model the knowledge learned in each modality, where the relational information is naturally suitable for the contrastive frameworks. On the other hand, asymmetrical configurations are used for teacher and student to stabilize the distillation process and to transfer high-confidence information between modalities. By derivation, we find that the cross-modal positive mining in previous works can be regarded as a degenerated version of our CMD. We perform extensive experiments on NTU RGB+D 60, NTU RGB+D 120, and PKU-MMD II datasets. Our approach outperforms existing selfsupervised methods and sets a series of new records.
-
-## Pretrained Models
-NTU-60 and NTU-120: [pretrained_models](https://drive.google.com/drive/folders/1KTmd3RMT2ITUot7uxB-05VEiBjDDygzo?usp=sharing)
+3D action representation learning. In this work, we formulate the crossmodal interaction as a bidirectional knowledge distillation problem. Different from classic distillation solutions that transfer the knowledge of a fixed and pre-trained teacher to the student, in this work, the knowledge is continuously updated and bidirectionally distilled between modalities. To this end, we propose a new Cross-modal Mutual Distillation (CMD) framework with the following designs. On the one hand, the neighboring similarity distribution is introduced to model the knowledge learned in each modality, where the relational information is naturally suitable for the contrastive frameworks. On the other hand, asymmetrical configurations are used for teacher and student to stabilize the distillation process and to transfer high-confidence information between modalities. By derivation, we find that the cross-modal positive mining in previous works can be regarded as a degenerated version of our CMD. We perform extensive experiments on NTU RGB+D 60, NTU RGB+D 120, and PKU-MMD II datasets. Our approach outperforms existing self-supervised methods and sets a series of new records.
 
 ## Requirements
 
@@ -30,6 +27,8 @@ numpy==1.22.4
 ## Training and Testing
 Please refer to the bash scripts
 
+## Pretrained Models
+NTU-60 and NTU-120: [pretrained_models](https://drive.google.com/drive/folders/1KTmd3RMT2ITUot7uxB-05VEiBjDDygzo?usp=sharing)
 
 ## Citation
 If you find this work useful for your research, please consider citing our work:
@@ -44,6 +43,3 @@ If you find this work useful for your research, please consider citing our work:
 
 ## Acknowledgment
 The framework of our code is based on [skeleton-contrast](https://github.com/fmthoker/skeleton-contrast).
-
-## Contact
-If you have any questions, please feel free to contact myy2016@mail.ustc.edu.cn
