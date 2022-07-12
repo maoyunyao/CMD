@@ -5,7 +5,7 @@
 
 This repository includes Python (PyTorch) implementation of the CMD.
 
-<!-- ![](../main/TransformerTracker.png) -->
+![](./images/cmd.jpg)
 
 ## Abstract
 In 3D action recognition, there exists rich complementary information between skeleton modalities. Nevertheless, how to model and
@@ -28,7 +28,7 @@ numpy==1.22.4
 Please refer to the bash scripts
 
 ## Pretrained Models
-NTU-60 and NTU-120: [pretrained_models](https://drive.google.com/drive/folders/1KTmd3RMT2ITUot7uxB-05VEiBjDDygzo?usp=sharing)
+NTU-60 and NTU-120: [pretrained_models](https://rec.ustc.edu.cn/share/5f6a5ee0-01dd-11ed-b9ae-8301ca6d3d37)
 
 ## Citation
 If you find this work useful for your research, please consider citing our work:
