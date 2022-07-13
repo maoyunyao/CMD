@@ -1,7 +1,7 @@
 # CMD: Self-supervised 3D Action Representation Learning with Cross-modal Mutual Distillation
 [Yunyao Mao](http://home.ustc.edu.cn/~myy2016), [Wengang Zhou](http://staff.ustc.edu.cn/~zhwg/index.html), Zhenbo Lu, Jiajun Deng, and [Houqiang Li](http://staff.ustc.edu.cn/~lihq) 
 
-### Accepted by **ECCV 2022 (Oral)**. [[Paper Link]](https://arxiv.org/pdf/2103.11681.pdf)
+### Accepted by **ECCV 2022 (Oral)**. [[Paper Link]](https://arxiv.org/pdf/2207.66666.pdf)
 
 This repository includes Python (PyTorch) implementation of the CMD.
 
