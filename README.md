@@ -24,6 +24,9 @@ tqdm==4.64.0
 numpy==1.22.4
 ```
 
+## Data Preprocessing
+Please refer to [skeleton-contrst](https://github.com/fmthoker/skeleton-contrast)
+
 ## Training and Testing
 Please refer to the bash scripts
 
